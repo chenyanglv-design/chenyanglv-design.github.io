@@ -52,6 +52,23 @@
         text-decoration: none;
     }
 
+    .basic-intro{
+        margin-top: 2rem;
+        display: inline-block;
+    }
+    .basic-intro p{
+        padding:0 2rem;
+    }
+    .client_name p{
+        font-weight: 600;
+        padding-left: 0;
+        font-size: 4rem;
+    }
+    .bold p{
+        font-weight: 900;
+        font-size: 1.2rem;
+
+    }
     .problem{
         margin-top: 2rem;
     }
@@ -159,39 +176,34 @@
         animation: svg_logo infinite;
         animation-duration: 3s;
     }
-
-    /* @keyframes svg_logo{
-        0%{
-            filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(10deg) brightness(118%) contrast(119%);
-        }
-        20%{
-            filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(350deg) brightness(118%) contrast(119%);
-        }
-        40%{
-            filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(80deg) brightness(118%) contrast(119%);
-        }
-        60%{
-            filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(180deg) brightness(118%) contrast(119%);
-        }
-        80%{
-            filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(300deg) brightness(118%) contrast(119%);
-        }
-        100%{
-            filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(2deg) brightness(118%) contrast(119%);
-        }
-    } */
-
-
     
 
     /* cover image */
 
     .cover-img{
-        padding-top:6rem;
-        width:100%;
-        height:auto;
-        align-content: center;
+        padding-top:5rem;
+        width:1024px;
     }
+
+    .flexbgcolor-reasi{
+        background-color: #22252A;
+        width: 100%;
+    }
+
+    .flexbgcolor-perch{
+        background-color: #39374C;
+        width: 100%;
+    }
+
+    .flexbgcolor-jingyu{
+        background-color: #47587C;
+        width: 100%;
+    }
+    .flexbgcolor-radar{
+        background-color: #21262C;
+        width: 100%;
+    }
+
 
     /* time role tool + overview*/
 
