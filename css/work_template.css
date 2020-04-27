@@ -260,6 +260,10 @@
         height:auto;
     } 
 
+    .caption-middle p{
+        text-align: center;
+    }
+
 
     .short_img img{
         width:50%;
