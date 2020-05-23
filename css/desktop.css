@@ -217,14 +217,14 @@
     font-weight: 400;
   }
 
-  #work #workcontainer{
+  #workcontainer{
     grid-column: 1/6;
     display: grid;
     grid-template-columns: 1fr repeat(4, 360px) 1fr ;
     margin-top:-2rem;
   }
 
-  #work #workcontainer a{
+  #workcontainer a{
     grid-column: 1/6;
     display: grid;
     grid-template-columns: 1fr repeat(6, 360px) 1fr ;
@@ -465,6 +465,73 @@
   .con-mobile{
     display:none
   }
+
+  .testimonial {    
+    width:720px
+  }
+
+  .testimonial p{
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    color:white
+  }
+
+  .test-item{
+
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 4rem 0;
+    padding: 1rem;
+    border-radius: 6px;
+  }
+
+  .zli{
+    background-color: #06304A;
+  }
+  
+  .sbteam{
+    background-color: white;
+  }
+
+  .sbteam p {
+    color: rgb(20, 20, 20);
+  }
+
+  .perchteam{
+    background-color:#4473B7 ;
+  }
+
+  .testlog img{
+    width: 164px;
+    border-radius: 7px;
+  }
+
+  .test-left{
+    grid-column: 1/3;
+    text-align: left;
+  }
+
+  .test-right{
+    grid-column: 3/8;
+  }
+
+
+  .test-right .testimonial-content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.8rem;
+  }
+
+  .test-right .testimonial-name{
+    text-align: right;
+    margin-top: 1.2rem;
+    font-weight: 500;
+  }
+
 
   
 
