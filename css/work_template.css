@@ -249,21 +249,15 @@
 
     /* video */
     .video {
-        width:849px;
-        height: auto;
-        box-shadow: 10px 10px 15px rgb(10,10,10 10);
-        position:absolute;
-        margin-left: 88px;
-        margin-top: 145px;
-
-    }
-
-    .laptopmockup{
-        width:1024px
+        box-shadow: 4px 4px 6px rgb(10,10,10 10);
+        border-radius: 5px;
+        right:100px
     }
 
     .perchvideocontainer{
-        width:1024px
+        margin:0 auto;
+        margin-top: 2rem;
+        width:1152px;
     }
     
 
@@ -499,5 +493,14 @@
     .lastpart{
           margin-bottom: 6rem;
       }
+
+    .hi-fi img{
+        width: 1340px;
+    }
+
+    .hi-fi p{
+        margin: 0 auto;
+        text-align: center;
+    }
 
 }
