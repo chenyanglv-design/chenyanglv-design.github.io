@@ -18,7 +18,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <meta charset="utf-8">
-    <title>Reasi</title>
+    <title>Reasi - Chenyang Lyu</title>
     <link rel = "stylesheet" href = "css/html5reset.css">
     <link rel = "stylesheet" href = "css/mobile.css">
     <link rel = "stylesheet" href = "css/desktop.css">
@@ -119,8 +119,11 @@
 
                 <div class = 'problem align-left'>
                     <b style = 'font-size:1.3rem'>What's my role?</b> 
-                    <P>
-                        I mainly focused on three goals: xxx,xxx,and xxx.                
+                    <P> I crafted a new mobile app design with a focus on redesigning the <span class= 'inline-style'> 
+                        listing creation
+                        process and the workspace feature,
+                    </span> which saved users about 42% time on
+                        completing transaction related tasks
                     </P>
                 </div>
 
@@ -128,7 +131,9 @@
             <div class = "pro-background">
                 <div class = 'intial-problem align-left'>
                     <p>Initial Problem Statement</p>
-                    <span>How might we help Reasi users complete their tasks more efficiently?</span>
+                    <span>                        
+                        Reasi users want to have a mobile app to help them finish their tasks more efficiently.
+                    </span>
                 </div>
             </div>
 
@@ -167,7 +172,7 @@
                         </div>
                         <div class="txt-content">
                             <p>
-                               Manage all of your listings and keep track of the transaction progress more effectively.   
+                               Manage all of your listings and keep track of the transaction progress timely.   
                             </p>
                         </div>
                     </div>
@@ -184,7 +189,7 @@
                         <div class="txt-header">
                             <span> 03
                             <br>
-                            <p>Task-oriented workspace</p>
+                            <p>Task-centered workspace</p>
                         </div>
                         <div class="txt-content">
                             <p>
@@ -222,16 +227,20 @@
                 </span>
                 <p> 
                     I conducted a user flow analysis of the current Reasi website by creating an interaction map, and at the same time, I
-                    also reviewed each of the interfaces and compared it against accepted usability principles by using heuristic evaluations.
-                    My goals are trying to quickly get a solid understanding of Reasi product and see where things could potentially be improved.
+                    also reviewed every interface and compared it against accepted usability principles by using heuristic evaluations.
+                    My goals are trying to quickly get a solid understanding of Reasi product and see where things could be improved potentially.
                 </p>
                 <p>
-                    Key Findings:
+                    <span>Key Findings:</span>
                     </br>1. The user flow can be divided into three parts: Onboarding process, Create a listing & share, and workspace.
-                    </br>2. The onboarding process seems too long and also confusing.
-                    </br>3. Create a listing process also seems overwhelming.
-                    </br>4. The workspace requires users to complete many tasks but lacks guidance.
-                    </br>5. Dashboard needs more indicators(colors, pictures, icons) to show different roles and status.
+                    </br>2. The listing creation process seems overwhelming.
+                    </br>3. The Workspace feature requires users to complete many tasks but there is a lack of guidance.
+                    </br>4. Dashboard needs more indicators(colors, pictures, icons) to show different roles and status.
+                </p>
+                </br>
+                <p>
+                    Also, I knew that the workspace is the most important feature of Reasi which digitizes
+                    the transaction between land buyers and sellers,
                 </p>
             </div>
 
@@ -241,31 +250,60 @@
 
             <div class = 'align-left'>
                 <span>Who are Reasi current users and what do they think of the product? </span>
-                <p>
-                    The interaction map made me realize that the workspace is the most important feature of Reasi which digitizes
-                    the transaction between land buyers and sellers and also secures the entire process. I decided to do some interviews with
-                    Reasi employees and current users to figure out their pain points and also what are the steps that they need to go over to complete the real estate transaction.
-                </p>
+                <p> To validate my findings from the previous step and gather more insights from current Reasi users and the product owner
+                    I interviewed one Reasi employee and 4 current users.</p>
 
                 <div class="inside_img">
                     <figure>
                         <img src = "images/reasi/interview_画板 1.png">
                     </figure>
                 </div> 
+                <p>
+                    <span>Key Findings:</span>
+                    </br>1. Reasi users are land investors who represent both sellers and buyers.
+                    </br>2. The dashboard should be more distinguishable in terms of showing different rols(seller, buyer), and transaction progress.
+                    </br>3. After opening escrow, users would only hear from the escrow company when escrow company needs them to sign documents.
+                    Normally they have to wait for more than one month and there is no status update during the process. 
+
+                </p>
 
             </div>
 
 
             <div class = 'persona align-left'>
-                <span>Transaction Workflow</span>
+                <span>User Journey Map</span>
                 <p>
-                   As the transaction process consists of multiple steps and stakeholders, it is complicated and fragmented. I decided to map all of the 
-                   steps and create a transaction workflow diagram which helped us get a better understanding of users' tasks in the process and 
-                   how might we improve the workspace feature to help me complete tasks more efficiently.
+                    During interviews with stakeholders, I found myself easily get confused with 
+                    the transaction process because there are too many steps and three types of stakeholders(buyer, seller, and the escrow company).
+                    To get a clear picture of the whole process and also explore potential insights in each stage, I built the user journey map to 
+                    visualize the process as well as stakeholders' tasks.
+                </p>
+                <div class="inside_img">
+                    <img src = "images/reasi/userjourneymap_画板 1 副本 5.png">
+                </div>  
+                <p>
+                    <span>Key Findings:</span>   
+                    </br>1. The In Escrow stage which is also when users engage with the Workspace feature is the most challenging and frustrating stage.
+                    </br>2. There is a lack of a convenient way for users to communicate with the escrow company during the in escrow prcoss.                    
+            </div>
+
+
+            <div class = 'persona align-left'>
+                <span>In-Escorw Workflow</span>
+                <p>
+                   As the In Escrow process consists of multiple tasks, it is complicated and fragmented. 
+                   Although I created the User Journey Map, there are still some confusions:
+                </br>1. Do those tasks have to be done sequentially?
+                </br>2. How do those tasks connect?
+                </br>3. How do sellers, buyers, and Reasi communicate with each other in the process and or do they need to?
+                </br>
+                   So I decided to map all of the steps and created a workflow diagram not only take a closer look at the in escrow process but also 
+                   explore how might we improve the workspace feature to help users complete tasks more efficiently.
                 </p>
                 <div class="inside_img">
                     <img src = "images/reasi/WORKFLOW_画板 1.png">
                 </div>  
+
             </div>
 
 
@@ -312,7 +350,7 @@
                 <p>
                     As a result, we decided to focus on 1, 2, 4, 6, 7, 10.
                     <br>
-                    In the following paragraphs, I will focus on the redesign of the <b>dashboard</b>.
+                    In the following paragraphs, I will focus on the redesign of the <b>Dashboard</b> and the <b>Workspace</b> features.
                 </p>
             </div>
 
@@ -323,10 +361,13 @@
                 </br>
                 </br>  
                 <p>
-                <b style = 'font-size:1.3rem'>OVERVIEW</b> 
-                </br>The whole design process includes three iterations. I started from the original version of the dashboard. Since previous research told us that Reasi users who are land investors play both the seller and the buyer role at the same time, I kept the original design that users can check lands they are selling and buying on the same page. But I adopted many strategies here to help users distinguish each listing and manage listings effectively, which include changing the layout of the card, adding property photos, and also using orange color to represent the role of buyer, and light blue color to represent the role of the seller.
-                </br> For each iteration, I presented my design to ZLI manager and Reasi product manager to get feedback and for the 2nd and 3rd round of iteration, we conducted usability testing to get feedback from users.
-                <p>
+                    <b style = 'font-size:1.3rem'>OVERVIEW</b> 
+                    </br>The whole design process includes three iterations. I started from the original version of the dashboard. Since previous research told us that Reasi users who are land investors play both the seller and the buyer role at the same time, I kept the original design that users can check lands they are selling and buying on the same page. 
+                    And I adopted many strategies here to help users distinguish each listing and manage listings effectively, which includes changing the layout of the card, adding property photos, and also using orange color to represent the role of buyer, and light blue color to represent the role of the seller.
+                    </br>
+                    </br>
+                    For each iteration, I presented my design to ZLI manager and Reasi product manager to get feedback and for the 2nd and 3rd round of iteration, we conducted usability testing to get feedback from users.
+                </p>
 
                 <div class="inside_img">
                     <img src = "images/reasi/dashboard_画板 1.png">
@@ -364,7 +405,7 @@
                 <p>
                     <b style = 'font-size:1.3rem'>FEEDBACK:</b> 
                     </br>- It would be more distinguishable if users can add photos of the lands since images are much easier to remember.
-                    </br>- The difference between each IA level is not clear.
+                    </br>- The differences between each IA levels are not significant.
                 </p>
 
                 </br>
@@ -375,13 +416,14 @@
                     <b style = 'font-size:1.3rem'>ITERATION 2:</b>
                     </br> 
                     Before moving onto the next iteration, we showed our design to 3 target users and received positive feedback on the new layout.
-                    In the meantime, our users also suggested we can emphasize a little bit more on the selling price since, in the transaction, the price might vary from time to time, it is also important to see the latest price when they open the app.
+                    In the meantime, our users also suggested us to emphasize a little bit more on the selling price since, in the transaction, the price might vary from time to time.
+                    It would be helpful if they can check the latest price when they open the app.
                 
                 </br> 
                 </br> 
                     So I made several changes in this round: 
-                    </br> 1. Users can upload photos when creating listings and they will be shown on the dashboard.
-                    </br> 2. Put more emphasis on the selling price which should be as important as the listing name.
+                    </br> 1. Users can upload photos when creating listings.
+                    </br> 2. Put more emphasis on the selling price which should be as important as the listing name in terms of information architecture.
 
                 <p>
 
@@ -431,12 +473,11 @@
 
                 <p>
                 <b style = 'font-size:1.3rem'>OVERVIEW</b> 
-                </br>The workspace feature is for sellers and buyers to complete all required closing tasks after they accept offer and open escrow. As the most complicated and complained feature,
-                
+                </br>The workspace feature is for sellers and buyers to complete all required closing tasks after buyers accept offer and they open escrow.
                 </p>
 
                 <div class="inside_img">
-                    <img src = "images/reasi/workspace_画板 1 副本 3.png">
+                    <img src = "images/reasi/place">
                 </div>
                 </br>
                 </br>
@@ -444,12 +485,14 @@
 
                 <p>
                     <b style = 'font-size:1.3rem'>ITERATION 1:</b> 
-                    </br>The original workspace mainly consists of five sections. To get a better andsystematic understanding of this feature, I visualized the information architecture by drawing this diagram below, then I figured out the five sections can be integrated and simplified into two parts:
+                    </br>The original workspace mainly consists of five sections. To get a better understanding of the current solution, I visualized the information architecture by drawing this diagram below, then I figured out the five sections can be integrated and simplified into two parts:
                 </br>
-                <b>1.Escrow Information and 2.Escrow Tasks.</b>
+                <b>1.Transaction Information 
+                </br>
+                    2.Transaction Tasks.</b>
                 </p>
                 <div class="inside_img">
-                    <img src = "images/reasi/workspace_画板 1 副本 3.png">
+                    <img src = "images/reasi/workspace_画板 1 副本 4.png">
                 </div>
                 <p>
                     Based on insights from previous interviews with users and Reasi product manager, I created a new card layout.
@@ -471,56 +514,6 @@
                 </br>
                 </br>
                 </br>
-
-                <p>
-                    <b style = 'font-size:1.3rem'>ITERATION 2:</b>
-                    </br> 
-                    Before moving onto the next iteration, we showed our design to 3 target users and received positive feedback on the new layout.
-                    In the meantime, our users also suggested we can emphasize a little bit more on the selling price since, in the transaction, the price might vary from time to time, it is also important to see the latest price when they open the app.
-                
-                </br> 
-                </br> 
-                    So I made several changes in this round: 
-                    </br> 1. Users can upload photos when creating listings and they will be shown on the dashboard.
-                    </br> 2. Put more emphasis on the selling price which should be as important as the listing name.
-
-                <p>
-
-                <div class="inside_img">
-                    <img src = "images/reasi/interation2_画板 1 副本 4.png">
-                </div>
-                <p>
-                    <b style = 'font-size:1.3rem'>FEEDBACK:</b> 
-                    </br>- There are many elements on the listing card that help users distinguish between different listings, so it is more important now to keep the color consistent across different cards and keep the minimal difference to guide new users.
-                    </br>- Try to reduce the size of those two buttons for users to access more easily when they are on the field trip.
-
-                </p>
-
-                </br>
-                </br>
-                </br>
-
-                <p>
-                    <b style = 'font-size:1.3rem'>ITERATION 3:</b>
-                    </br> 
-                    I presented my design to my managers and we ran a second round of testings with our users. Here are my findings:
-                </br> 1. Users still need the "Share" function even they already have a buyer for a property.
-                </br> 2. Move the two buttons to right/left would be easier for them to tap those two buttons.
-                </br> 2. Users want to know what tasks they need to complete on the dashboard
-                </br> 
-                Based on the insights, I created the final listing card design:
-                <p>
-
-                <div class="inside_img">
-                    <img src = "images/reasi/interation3_画板 1 副本 5.png">
-                </div>
-                <p>
-                    <b style = 'font-size:1.3rem'>FEEDBACK:</b> 
-                    </br>- Users can manage different transactions more effectively.
-                    </br>- The UI looks more consistent.
-
-                </p>
-                    
 
             </div>
         </div>
