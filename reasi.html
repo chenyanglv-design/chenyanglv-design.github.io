@@ -35,16 +35,17 @@
     <header class = "grid">
         <div id = 'navigation'>
             <div id = "headertext">
-                <div>
-                    <a href = "index.html"><h1>Chen Design Lab</h1></a>
+                <div id = 'title'>
+                    <h1>Chenyang Lyu</h1>
                 </div>
-                <div id = 'link'>
-                <a href = "index.html#work"> Works </a> 
-                <a href = "about.html"> About </a>
+              <div id = 'link'>
+                <a href = "index.html" >Works</a> 
+                <a href = "play.html" >Playground</a> 
+                <a href = "about.html" > About </a>
                 <a href = "docs/chenyang_lyu_resume_2019.pdf"> Resume </a>
-                </div>    
-            </div>      
-        </div>    
+              </div>
+            </div>
+        </div>      
     </header>
 
     <main>
@@ -119,11 +120,14 @@
 
                 <div class = 'problem align-left'>
                     <b style = 'font-size:1.3rem'>What's my role?</b> 
-                    <P> I crafted a new mobile app design with a focus on redesigning the <span class= 'inline-style'> 
+                    <P> The U.S. real estate market was totally an unfamiliar territory to me. In the kick-off meeting with our client Reasi,
+                        I was confused because I didn't know anything about the workflow, who the stakeholders are, and even the professional terms they were using.
+                        But I was also passionate and confident because I knew I can get familiar with this area quickly because I love to step into a new area, get to know target users with empathizing methods, and provide design solutions.
+                        After conducting research methods like User Interview, User Journey Map, User Workflow diagram, etc, I crafted a new mobile app design with a focus on redesigning the <span class= 'inline-style'> 
                         listing creation
                         process and the workspace feature,
                     </span> which saved users about 42% time on
-                        completing transaction related tasks
+                        completing transaction-related tasks and enhanced user engagement by 64%.
                     </P>
                 </div>
 
@@ -473,11 +477,13 @@
 
                 <p>
                 <b style = 'font-size:1.3rem'>OVERVIEW</b> 
-                </br>The workspace feature is for sellers and buyers to complete all required closing tasks after buyers accept offer and they open escrow.
+                </br>The workspace feature is for sellers and buyers to complete all required closing tasks after buyers accept the offer and they open escrow.
+                The original workspace feature showed every piece of information on the same page which ends up being super long. Based on previous research and 3 iterations,
+                I turned it into a task-centered system that prioritizes tasks that are waiting for actions and also added a new feature for users to communicate with the Reasi facilitator efficiently and simply. 
                 </p>
 
                 <div class="inside_img">
-                    <img src = "images/reasi/place">
+                    <img src = "images/reasi/workspace-overall_画板 1 副本 10.png">
                 </div>
                 </br>
                 </br>
@@ -486,35 +492,101 @@
                 <p>
                     <b style = 'font-size:1.3rem'>ITERATION 1:</b> 
                     </br>The original workspace mainly consists of five sections. To get a better understanding of the current solution, I visualized the information architecture by drawing this diagram below, then I figured out the five sections can be integrated and simplified into two parts:
-                </br>
-                <b>1.Transaction Information 
-                </br>
-                    2.Transaction Tasks.</b>
+                    </br>
+                    <b>1.Transaction Information 
+                    </br>
+                        2.Transaction Tasks.</b>
                 </p>
                 <div class="inside_img">
                     <img src = "images/reasi/workspace_画板 1 副本 4.png">
                 </div>
                 <p>
-                    Based on insights from previous interviews with users and Reasi product manager, I created a new card layout.
-                    First of all, I redesigned the information architecture of the card, according to users, the first thing they want to know
-                    when they visit dashboard is which are lands they are selling and which are they are buying, then they want to know what's the listing progress.
-                </br>
-                    I have decided to use two different colors to represent the role of buyer and seller.
+                    So I decided to split the Workspace feature up into two sections: the task section and the information section.
+                    </br>
+                    In the meantime, based on the insights from previous research, I turned the task section into a task list with a 
+                    progress bar to help users be aware of tasks in the future. I also added the Message feature for users to request 
+                    transaction status updates. To begin with, I used sketches to present my idea to ZLI and Reasi manager to get feedback quickly.
+
                 </p>
                 <div class="inside_img">
-                    <img src = "images/reasi/interation1_画板 1 副本 3.png">
+                    <img src = "images/reasi/workspace-sketches_画板 1 副本 6.png">
                 </div>
 
                 <p>
                     <b style = 'font-size:1.3rem'>FEEDBACK:</b> 
-                    </br>- It would be more distinguishable if users can add photos of the lands since images are much easier to remember.
-                    </br>- The difference between each IA level is not clear.
+                    </br>- It would require too much effort to develop a whole new messaging section just for users requesting updates, and also
+                    Reasi was hoping to automate the escrow process in the future so a messaging system would increase the operating costs.
+                    </br>- Getting rid of the task progress bar because it is repetitive and unnecessary since it is shown on the dashboard.
                 </p>
-
                 </br>
                 </br>
                 </br>
 
+
+                <p>
+                    <b style = 'font-size:1.3rem'>ITERATION 2:</b> 
+                    </br>
+                    For this round of iteration, I got rid of the messaging feature and the task progress bar based on previous feedback. 
+                    Instead, I created a new model for users to request for updates: users can let the Reasi facilitator know that they want an update by
+                    clicking the "Request for Update " button, and then the Reasi facilitator would receive this request and respond to it by leaving a note to users.
+
+                </p>
+                <div class="inside_img">
+                    <img src = "images/reasi/workspace-iteration2_画板 1 副本 7.png">
+                </div>
+                <p>
+                    <b style = 'font-size:1.3rem'>USABILITY TESTING</b> 
+                    <br>
+                    To get feedback from real users on the new feature and the new layout, I conducted usability testings 
+                    with 3 real Reasi users.
+            
+                </p>
+                <p>
+                    <b style = 'font-size:1.3rem'>FEEDBACK:</b> 
+                    </br>- I noticed that users rarely access the About section to check the basic information of the listing. 
+                    They mentioned that normally the basic information would be confirmed before they enter the escrow process and they wouldn't refer to it frequently.
+                    </br>- The Task section should emphasize unfinished tasks instead of putting completed tasks above unfinished tasks.
+                    </br>- The  "Request for Update" feature is intuitive and simple, and also offers users an option to communicate with Reasi without spending too much effort. 
+                </p>
+                </br>
+                </br>
+                </br>
+
+
+                <p>
+                    <b style = 'font-size:1.3rem'>ITERATION 3:</b> 
+                    </br>
+                    Based on insights from previous testing, I moved the whole information section onto another page which users can access by clicking the text "More Info" on the original page, which not only 
+                    made the first page look simple and emphasize on the tasks, but also helped users store those information in case they need to see it.
+                    Also, I split the Task section up into two parts: To-do's and Completed tasks to help users emphasize on tasks that they need to do.
+                
+                </p>
+                <div class="inside_img">
+                    <img src = "images/reasi/workspace-iteration3_画板 1 副本 8.png">
+                </div>
+                <p>
+                    <b style = 'font-size:1.3rem'>USABILITY TESTING</b> 
+                    <br>
+                    After this round of iteration, I presesnted my design to the product manager and the dev team of Reasi to get their insights.
+            
+                </p>
+                <p>
+                    <b style = 'font-size:1.3rem'>FEEDBACK:</b> 
+                    </br>- It would be helpful if it can have a documentation section to help users easily find those files and users would be able to get informed when Reasi facilitators upload new files.
+                </p>
+                </br>
+                </br>
+                </br>
+
+
+                <p>
+                    <b style = 'font-size:1.3rem'>Workspace Final Design</b> 
+                    </br>
+                    
+                </p>
+                <div class="inside_img">
+                    <img src = "images/reasi/workspace-final_画板 1 副本 9.png">
+                </div>
             </div>
         </div>
             
