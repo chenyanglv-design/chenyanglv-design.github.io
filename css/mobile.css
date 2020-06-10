@@ -28,18 +28,18 @@
   #navigation h1{
     padding:0;
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-size: 4rem;
     color: rgb(239, 96, 133);
     font-weight: 600;
-    padding: 0 16px;
+    padding: 32px;
 
   }
 
   #headertext a{
     color: white;
-    padding: 20px 20px;
+    padding: 58px 58px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 3rem;
     display: block;
   }
 
@@ -56,16 +56,16 @@
   }
 
   #introduction{
-    padding:16px;
+    padding:32px;
     display: inline-block;
-    margin-top: 6rem;
+    margin-top: 12rem;
     color: rgb(221, 221, 221);   
-    font-size: 2rem; 
+    font-size: 4rem; 
     line-height: normal;
   }
 
   #introduction .self-intro p{
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
 
   #work img{
@@ -75,7 +75,7 @@
 
 
   #introduction .contact p{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 300;
     line-height: normal;
     margin:0;
@@ -83,7 +83,7 @@
 
   #workcontainer a{
     display: grid;
-    grid-template-columns: 16px 1fr 16px ;
+    grid-template-columns: 32px 1fr 32px ;
     grid-template-rows: 1fr 1fr 1fr 1fr ;
     margin-top: 5rem;
     text-align: left;
@@ -103,7 +103,7 @@
   }
 
   .worktitle h2{
-    font-size: 2.4rem;
+    font-size: 6rem;
     font-weight: 600;
     color: white;
 
@@ -117,19 +117,19 @@
     margin-top: 1rem;
     z-index: 2;
     color: rgb(225,225,225);
-    font-size: 1rem;
+    font-size: 2.4rem;
     font-family:'Inter', sans-serif;
     line-height: normal;
   }
 
   .worktype{
-    margin: 1rem 0;
+    margin: 3rem 0;
   }
 
   .worktype p{
     margin:0;
-    margin-right:0.5rem;
-    padding:0.2rem 0.8rem;
+    margin-right: 1rem;
+    padding:1rem 2rem;
     z-index: 2;
     position: relative;
     display: inline;
@@ -143,36 +143,42 @@
 
   }
 
-  
-  #work .other .icon{    
-    width: auto;
-    height:15px;
-  }
-
- .border {
-  margin: 1rem 0;
-  width: 100%;
-  border-bottom: 1px solid white;
-  }
-
-  .other{
-    margin-top: 1rem;
-  }
-
-
-  .other span{
-    color: rgb(255,255,255);
-    font-size: 1.2rem;
-    font-family:'Inter', sans-serif;
-    display: inline-block;
-  }
-
   .worktitle .workdes p{
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 0;
     margin: 0;
     color: rgb(210,210,210);
   }
+  
+  #work .other .icon{    
+    width: auto;
+    height:56px;
+  }
+
+ .border {
+    margin: 1rem 0;
+    width: 100%;
+    border-bottom: 1px solid white;
+  }
+
+  .other{
+    margin-top: 4rem;
+  }
+
+  .other span{
+    color: rgb(255,255,255);
+    font-size: 2.4rem;
+    font-family:'Inter', sans-serif;
+    display: inline-block;
+    font-weight: 300;
+  }
+
+  .other p{
+    font-weight: 300;
+    font-size: 1.5rem;
+
+  }
+
 
 
 
