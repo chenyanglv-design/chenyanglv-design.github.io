@@ -254,14 +254,14 @@
     line-height: normal;
     font-size: 2.6rem;
     font-family:'Inter', sans-serif;
-    font-weight: 400;
-    color: rgb(230,230,230);
+    font-weight: 300;
+    color: rgb(220,220,220);
 
   }
 
   .placeholder{
     background-color: #050505;
-    height: 20rem;
+    height: 12rem;
   }
 
 
