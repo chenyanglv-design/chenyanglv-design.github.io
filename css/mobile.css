@@ -28,7 +28,7 @@
   #navigation h1{
     padding:0;
     font-family: 'Inter', sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     color: rgb(239, 96, 133);
     font-weight: 600;
     padding: 32px;
@@ -58,7 +58,7 @@
   #introduction{
     padding:32px;
     display: inline-block;
-    margin-top: 12rem;
+    margin-top: 22rem;
     color: rgb(221, 221, 221);   
     font-size: 4rem; 
     line-height: normal;
@@ -66,6 +66,7 @@
 
   #introduction .self-intro p{
     margin-bottom: 4rem;
+    font-weight: 600;
   }
 
   #work img{
@@ -75,7 +76,7 @@
 
 
   #introduction .contact p{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 300;
     line-height: normal;
     margin:0;
@@ -85,7 +86,7 @@
     display: grid;
     grid-template-columns: 32px 1fr 32px ;
     grid-template-rows: 1fr 1fr 1fr ;
-    margin-top: 5rem;
+    margin: 6rem 0;
     text-align: left;
     list-style: none;
     text-decoration: none;
@@ -116,7 +117,7 @@
     margin-top: 1rem;
     z-index: 2;
     color: rgb(225,225,225);
-    font-size: 2.4rem;
+    font-size: 3.2rem;
     font-family:'Inter', sans-serif;
     line-height: normal;
   }
@@ -128,12 +129,12 @@
   .worktype p{
     margin:0;
     margin-right: 1rem;
-    padding:0.8rem 1.6rem;
+    padding:0.6rem 1.4rem;
     z-index: 2;
     position: relative;
     display: inline;
     color: white;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     font-weight: 400;    
     font-family:'Inter', sans-serif;
     background-color: rgb(239, 96, 133, 80%);
@@ -143,7 +144,7 @@
   }
 
   .worktitle .workdes p{
-    font-size: 2rem;
+    font-size: 2.4rem;
     padding: 0;
     margin: 0;
     color: rgb(210,210,210);
@@ -151,7 +152,7 @@
   
   #work .other .icon{    
     width: auto;
-    height:42px;
+    height:32px;
   }
 
  .border {
