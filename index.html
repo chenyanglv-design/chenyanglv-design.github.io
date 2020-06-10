@@ -22,10 +22,11 @@
     <link rel = "stylesheet" href = "css/html5reset.css">
     <link rel = "stylesheet" href = "css/mobile.css">
     <link rel = "stylesheet" href = "css/desktop.css">
-    <link rel = "stylesheet" href = "css/tablet.css">
-    <link rel = "stylesheet" href = "css/mobile-con.css">
+    <!-- <link rel = "stylesheet" href = "css/mobile-con.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
 
@@ -42,6 +43,11 @@
             <a href = "about.html" > About </a>
             <a href = "docs/chenyang_lyu_resume_2019.pdf"> Resume </a>
           </div>
+          <!-- for mobile only -->
+          <a href="javascript:void(0);" class="mobilenav" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          <!-- for mobile only -->
         </div>
       </div>    
     </header>
@@ -53,9 +59,7 @@
           <p> 
             Hi there, I'm Chen, an entrepreneurial product designer with a love for helping users achieve their goals.
           </p>
-          <br>
-          <br>
-          <br>
+
         </div>
         <div class = "contact">
           <p> 
@@ -414,6 +418,7 @@
     <script src = "js/work_display.js"></script>
     <script src = "js/carousel.js"></script>
     <script src = "js/sticky_nav.js"></script>
+    <script src = "js/mobilenav.js"></script>
 
 
 
