@@ -680,4 +680,8 @@
     display: none;
   }
 
+  .about_img_mobile{    
+    display: none
+  }
+
 }
