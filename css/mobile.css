@@ -234,6 +234,35 @@
 
   }
 
+  .about_img{
+    display: none
+  }
+
+  .about_img_mobile{    
+    margin: 0 32px;
+  }
+
+  .about_img_mobile img{
+    width: 100%;
+  }
+
+  .about_txt{
+    margin: 4rem 32px;
+  }
+
+  .about_txt p{
+    line-height: normal;
+    font-size: 2.6rem;
+    font-family:'Inter', sans-serif;
+    font-weight: 400;
+    color: rgb(230,230,230);
+
+  }
+
+  .placeholder{
+    background-color: #050505;
+    height: 20rem;
+  }
 
 
 
