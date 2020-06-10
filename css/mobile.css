@@ -224,6 +224,16 @@
     color: rgb(185,185,185);
   }
 
+  .block{
+    margin: 0 32px;
+  }
+
+  .block img{
+    width: 100%;
+    margin: 2rem 0;
+
+  }
+
 
 
 
