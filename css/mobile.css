@@ -162,12 +162,12 @@
   }
 
   .other{
-    margin: 12rem 0;
+    margin: 10rem 0;
   }
 
   .other span{
     color: rgb(255,255,255);
-    font-size: 2.4rem;
+    font-size: 3.2rem;
     font-family:'Inter', sans-serif;
     display: inline-block;
     font-weight: 300;
@@ -175,9 +175,54 @@
 
   .other p{
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 3.2rem;
 
   }
+
+  #footer{
+    background-color: rgb(20, 20, 20);
+    margin: 0 32px;
+
+  }
+
+  #footer .long-card{
+    width:100%;
+  }
+
+  #footer p{
+    font-size: 3.2rem;
+    color: rgb(185,185,185);
+    font-weight: 300;
+  }
+
+
+  #footer span{
+    color: rgb(239, 96, 133);
+  }
+
+  .part{
+    display: inline-block;
+    margin: 4rem 0rem;
+  }
+
+  .three{
+    margin-bottom: 6rem;
+  }
+
+  .far{
+    color: rgb(185,185,185);
+    font-size: 6rem;
+    margin-right: 3rem;
+
+  }
+
+  .fab{
+    margin: 0 3rem;
+    font-size: 6rem;
+    color: rgb(185,185,185);
+  }
+
+
 
 
 
