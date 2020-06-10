@@ -18,61 +18,60 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <meta charset="utf-8">
-    <title>Whale Design</title>
+    <title>Whale Design - Chenyang Lyu</title>
     <link rel = "stylesheet" href = "css/html5reset.css">
-    <!-- <link rel = "stylesheet" href = "css/mobile.css"> -->
+    <link rel = "stylesheet" href = "css/mobile.css">
     <link rel = "stylesheet" href = "css/desktop.css">
     <link rel = "stylesheet" href = "css/work_template.css">
-    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
-    <header class = "grid">   
+
+    <header class = "grid">
         <div id = 'navigation'>
             <div id = "headertext">
-              <div id = 'title' class = " workheader">
-                <h1>Chenyang Lyu</h1>
-              </div>
+                <div id = 'title'>
+                    <h1>Chenyang Lyu</h1>
+                </div>
               <div id = 'link'>
                 <a href = "index.html" >Works</a> 
                 <a href = "play.html" >Playground</a> 
                 <a href = "about.html" > About </a>
                 <a href = "docs/chenyang_lyu_resume_2019.pdf"> Resume </a>
               </div>
+              <a href="javascript:void(0);" class="mobilenav" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+              <!-- for mobile only -->
             </div>
-        </div>    
+        </div>      
     </header>
 
     <main>
         <div class = "progress-container">
             <div class = "progress-bar" id = "myBar"></div>
         </div>
+
         <div class = "flexbgcolor-jingyu">
             <figure>
-                <img class="cover-img" src="images/jingyu/cover_wd-14.png">
+                <img class="cover-img" src="images/jingyu/white_11.png">
             </figure>
         </div>
+
         <div class = "align-left basic-intro ">
 
             <div class = "client_name basic-intro">
-                <p> WD </p>
+                <p> WhaleDesign </p>
             </div>
 
             <div class="type basic-intro">
                 <div class = "bold">
                     <p > Type </p>
                 </div>
-                <p>Full-time Job</p>
-            </div>
-            <div class="role basic-intro" >
-                <div class = "bold">
-                    <p> Role </p>
-                </div>
-                <p> Product Designer</p>
+                <p> Full-time Job </p>
             </div>
             <div class="tools basic-intro" >
                 <div class = "bold">
@@ -82,18 +81,21 @@
             </div>
             <div class="time basic-intro" >
                 <div class = "bold">
-                    <p> Duration </p>
+                    <p> Timeline </p>
                 </div>
                 <p>Mar 2017 to Aug 2018</p>
             </div> 
 
         </div>
- 
+        
+
+
         <div class="project_intro" >
             <h1 class = 'heading'>Overview</h1>
+            <div class ='bar'></div>
 
             <div class = "background align-left">
-                <span class="project_intro-heading">Background</span> 
+                <span>Background</span>
                 <p>
                     From March 2017 to August 2018, I worked at Whale Design as a product designer. Whale Design, which launched in 2017, takes companies' design requests and floats competitions for freelance designers, with the winner being allowed on work on the company's project and earning a bonus as well.
                     <br>
@@ -110,139 +112,259 @@
                 <p> 02. Increase the number of submissions in each contestby 20% in 6 months </p>
                 <p> 03. Increase the number of new clients by 100% in one year </p>
             </div>
+            <div class = "pro-background">
+                <div class = 'intial-problem align-left'>
+                    <p>Problem Statement</p>
+                    <span>                        
+                        Only 5.2% of Whale Design users are winners of all contests on the platform, the others work hard but get nothing, which is a big disappointment to those users.
+                    </span>
+                </div>
+            </div>
 
             <div class = "background align-left">
-                <span class="project_intro-heading">The Problem</span>
-            </div>
-            <div class="outside_img">
-                <img src = "images/jingyu/problem-04.png">
-            </div> 
 
-            <div class = "background align-left">
-                <span class="project_intro-heading">Solution</span>
-            </div>
-            <div class="outside_img">
-                <img src = "images/jingyu/solution-05.png">
-            </div> 
-            <div class="outside_img">
-                <img src = "images/jingyu/solution-06.png">
-            </div> 
-            <div class="outside_img">
-                <img src = "images/jingyu/solution-07.png">
-            </div> 
-            <div class="outside_img">
-                <img src = "images/jingyu/solution-08.png">
-            </div> 
-            <div class="outside_img">
-                <img src = "images/jingyu/solution-09.png">
-            </div> 
-    
-        </div>
+                <div class="solution solution-reasi">
 
-        <div class = 'outcomes'>
-            <h1 class = 'heading'>Final Design</h1>
-            <div class = 'outcome_01 align-left'></div>
-            
-            <div class="outside_img">
-                <img src = "images/jingyu/final_design2-12.png">
-            </div> 
+                    <span>Solution</span>
 
-           
+                    <div class="solution-text  solution-text-jingyu">
+                        <div class="txt-header">
+                            <span> 01 </span>
+                            <br>
+                            <p>
+                                Experience Points Grading System
+                            </p>
+                        </div>
+                        <div class="txt-content">
+                            <p>
+                                Contestants who are not winners would also earn XP as prizes which can help them level up their accounts. We incorporated the XP Grading System into our product mainly for two reasons:
+                                <br>            
+                                1. We want to encourage all users to participate in contests and help them improve their skills.
+                                <br>  
+                                2. We would be able to rank designers on our platform based on their account levels.
+                                <br>
+                                Users at higher levels have eligibility to participate in higher-level contests.
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" solution-img-jingyu">
+                        <div>
+                            <img src = "images/jingyu/jun-01.png">
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="solution solution-reasi">
+                    <div class="solution-text  solution-text-jingyu">
+                        <div class="txt-header">
+                            <span> 02 </span>
+                            <br>
+                            <p>
+                                Multiple Contest Types                            
+                            </p>
+                        </div>
+                        <div class="txt-content">
+                            <p>
+                                We designed 5 types of contests based on different needs of designers at various degrees of proficiency in design skills, which are: 
+                            </p>
+                            <br>
+                            <p>
+                                1. Open Contest
+                                <br>            
+                                2. Invitational Contest
+                                <br>  
+                                3. Creative Contest
+                                <br>
+                                4. Individual Contest
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" solution-img-jingyu">
+                        <div>
+                            <img src = "images/jingyu/jun-02.png">
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="solution solution-reasi">
+                    <div class="solution-text  solution-text-jingyu">
+                        <div class="txt-header">
+                            <span> 03 </span>
+                            <br>
+                            <p>
+                                Betting System                            
+                            </p>
+                        </div>
+                        <div class="txt-content">
+                            <p>
+                                Users can also participate in semi-finals even if they lose in the preliminary stage. In a contest betting, they can try to pick the winner before the contest ends. They would also earn money as prizes if they win the bet.                            
+                            </p>
+                            <br>
+                        </div>
+                    </div>
+                    <div class=" solution-img-jingyu">
+                        <div>
+                            <img src = "images/jingyu/jun-03.png">
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="solution solution-reasi">
+                    <div class="solution-text  solution-text-jingyu">
+                        <div class="txt-header">
+                            <span> 04 </span>
+                            <br>
+                            <p>
+                                Personal Center                            
+                            </p>
+                        </div>
+                        <div class="txt-content">
+                            <p>
+                                Personal Center is a multi-functional hub for users to do all kinds of tasks and check all the notifications.
+                            </p>
+                            <br>
+                        </div>
+                    </div>
+                    <div class=" solution-img-jingyu">
+                        <div>
+                            <img src = "images/jingyu/jun-04.png">
+                        </div>
+                    </div>
+                </div> 
+
+                
+            </div>    
         </div>
 
         <div class = 'research'>
             <h1 class = 'heading'>Design Process</h1>
+            <div class ='bar'></div>
 
             <div class = 'process align-left'>
                 <div class="inside_img">
-                        <img src = "images/jingyu/design-13.png">
+                        <img src = "images/jingyu/process-10.png">
                 </div>  
             </div>
 
-            <h1 class = 'heading'>Understanding</h1>
+            <h1 class = 'heading'>Research</h1>
+            <div class ='bar'></div>
 
-            <div class = 'Current-web align-left'>
-                <span>Usability Problems in Current Design </span>
-                <p>To quickly get familiar with the current website, I began my research by creating an interaction map of the current website and a contest flow diagram. I noticed there are two issues: </p>
-                <div class = "bullet_p">
-                    <p>	01. Averagely, one contest would have 150 submissions, but only 10% of them can earn prizes and others just get nothing. This contest mode can be a huge disappointment to those designers who work hard but get nothing</p>
-                    <p> 02. Other than uploading designs and waiting for results, there is nothing else designers can do on the platform. There is potential to create new features for them. </p>
-                </div>
-                <div class="inside_img">
-                    <img src = "images/jingyu/understanding 01-15.png">
-                </div>  
+            <div class = 'align-left'>
+                <span>
+                    Usability Problems in Current Design
+                </span>
+                <p>
+                    To quickly get familiar with the current website, I began my research by creating an interaction map of the current website and a contest flow diagram. I noticed there are two issues: 
+                </p>
+
+                <p>
+                    </br>
+                    1. Averagely, one contest would have 150 submissions, but only 10% of them can earn prizes and others just get nothing. This contest mode can be a huge disappointment to those designers who work hard but get nothing
+                    </br>
+                    2. Other than uploading designs and waiting for results, there is nothing else designers can do on the platform. There is potential to create new features for them.
+                </p>
             </div>
 
-            <div class = 'interview align-left'>
+            <div class="inside_img hi-fi">
+                <img src = "images/jingyu/understanding 01-15.png">
+            </div>  
+
+            <div class = 'align-left'>
                 <span>User Interview</span>
-                <p> After previous research, 
+                <p> 
+                    After previous research, 
                     I conducted 4 interviews with current users to understand their goals/pain points in their work as well as their experience on the website.
                     From interviews, I realized that the money is not always the motivation for designers to participate contests. Designers at different levels can have different goals.
                 </p>
+
                 <div class="inside_img">
-                    <img src = "images/jingyu/userinterview-16.png">
-                </div>  
+                    <figure>
+                        <img src = "images/jingyu/userinterview-16.png">
+                    </figure>
+                </div> 
             </div>
 
-            <div class = 'persona align-left'>
+
+            <div class = 'align-left'>
                 <span>Personas</span>
-                <p>Based on insitghs and data collected from the interviews, I created three peronas to help me understand different types of users and their goals. </p>
+                <p>
+                    Based on insitghs and data collected from the interviews, I created three peronas to help me understand different types of users and their goals. 
+                </p>
                 <div class="inside_img">
-                    <img src = "images/jingyu/persona-17.png">
+                    <img src = "images/jingyu/jun-05.png">
                 </div>  
+                <div class="inside_img">
+                    <img src = "images/jingyu/jun-06.png">
+                </div>  
+                <div class="inside_img">
+                    <img src = "images/jingyu/jun-07.png">
+                </div>  
+
             </div>
 
-            <div class = 'persona align-left'>
+
+            <div class = 'align-left'>
                 <span>User Data Analysis</span>
-                <p>An interesting detail that I noticed during interviews is that one designer said he has won 5 contests. But I know that 
+                <p>
+                    An interesting detail that I noticed during interviews is that one designer said he has won 5 contests. But I know that 
                     we only have 21 contests on the platform at that time and 5 of them are still ongoing, which means he won 1/3 of all the contests.
                     <br>
                     <br>
                     This finding drew my attention, which made me want to explore the data about our designers, I had three questions in mind:
-                </p>
-                <div class = "bullet_p">
-                    <p>	<span class="bold">01.</span> How many active designers do we have on the platform ? </p>
-                    <p> <span class="bold">02.</span> What percent of designers have earned money from contests ?</p>
-                    <p> <span class="bold">03.</span> Designers stop participating in contests after how many times of failures ?</p>
-                </div>
-                <p>
-                    I got the data from the development team and after analyzing the data, I have three surprising findings:
+                    <br>
+                    <br>
+                    01. How many active designers do we have on the platform? 
+                    <br>
+                    02. What percent of designers have earned money from contests? 
+                    <br>
+                    03. Designers stop participating in contests after how many times of failures?
                 </p>
                 <div class="inside_img">
                     <img src = "images/jingyu/data-19.png">
                 </div>  
             </div>
-        </div>
 
-
-        <div class = 'iteration'>
-            <h1 class = 'heading'>Ideation Design</h1>
-            <div class = 'ideation align-left'>
-                <span>Design Goals</span>
-                <br>
-                <br>
-                <span class = 'bold'>Design a new mechanism that helps users earn what they want and also encourages them to participate 
-                    in more contests  </span>
+            <div class = 'align-left'>
+                <span>Research Insights</span>
                 <p>
                     After creating personas, I have a solid understanding of what needs do designers at different levels have. I want to
                     create a new mechanism to help different types of users achieve their goals and also participate in more contests.
                 </p>
                 <div class="inside_img">
-                    <img src = "images/jingyu/goals-20.png">
+                    <img src = "images/jingyu/jun-goal-14.png">
                 </div>  
             </div>
 
-            <div class = 'ideation align-left'>
-                    <span>Ideation</span>
-                    <p>
-                        <!-- Talking about ideas -->
-                    </p>
-                    <div class="inside_img">
-                        <img src = "images/jingyu/sketches-18.png">
-                    </div>  
+        </div>
+
+        <div class = "revised-background background-jingyu">
+            <div class = 'intial-problem align-left'>
+                <p>Design Goals</p>
+                <span>
+                    Design a new mechanism that helps users earn what they want and also encourages them to participate 
+                    in more contests                      
+                </span>
+            </div>
+        </div>
+
+
+        <div class = 'iteration'>
+            <h1 class = 'heading'>Design Process</h1>
+            <div class ='bar'></div>
+
+
+            <div class = 'align-left'>
+                <span>Ideation</span>
+                <p>
+                   We brainstormed more than 10 ideas and sketched them out. We presented our findings and designs to the development team and product manager to get feedback.          
+                </p>
+                <div class="inside_img">
+                    <img src = "images/jingyu/jun-design-12.png">
+                </div>
             </div>
 
-            <div class = 'ideation align-left'>
+
+            <div class = 'align-left'>
                 <span>Gamification</span>
                 <p>
                     I decided to incorporate the gamification strategy into our product after brainstorming. I found game players and Whale Design
@@ -250,87 +372,117 @@
                     skills at different levels would perform differently on the same task/contest. After two-week gamification research, I came up with four insights of how should I implement this strategy:
                 </p>
                 <div class="inside_img">
-                    <img src = "images/jingyu/game-21.png">
-                </div> 
-                <br>
-                <br>
-                <p> | Gamification Research </p>
-                <div class="inside_img">
-                    <img src = "images/jingyu/gameresearch-22.png">
-                </div> 
-                <a href = "docs/gameresearch.pdf" target="_blank">
-                    <p>Check the research summary</p>
-                </a>
-            </div>
-    
-
-            <div class = 'ideation align-left'>
-                <span>New Contest Flow</span>
-                <div class="inside_img">
-                    <img src = "images/jingyu/flow-10.png">
-                </div>  
+                    <img src = "images/jingyu/jun-design-15.png">
+                </div>
             </div>
 
-            <div class = 'ideation align-left'>
+            <div class = 'align-left'>
+                <span>New User Flow</span>
+                <div class="inside_img">
+                    <img src = "images/jingyu/jun-userflow-09.png">
+                </div>
+            </div>
+
+
+            <div class = 'align-left'>
+                <br><br>
                 <span>Lo-fi Prototypes</span>
                 <div class="inside_img">
-                    <img src = "images/jingyu/lo-fi-22.png">
-                </div>  
-            </div>
+                    <img src = "images/jingyu/jun-lowfi-16.png">
+                </div>
+            </div> 
         </div>
+       
 
         <div class = 'final_design'>
-            <h1 class = 'heading align-left'>Hi-Fidelity Prototype</h1>
-            <div class="inside_img align-left">
-                <img src = "images/jingyu/hi-fi-23.png">
-            </div>  
-        </div>
+                <h1 class = 'heading align-left'>Final Design</h1>
+                <div class ='bar'></div>
 
+                <div class = 'align-left'>
+                    <br><br>
+                    <!-- <span>Hi-fi Prototypes</span> -->
+                    <div class="inside_img hi-fi jingyu-hifi">
+                        <img src = "images/jingyu/jun-contests.png">
+                        <p> Multiple Contest Types </p>
+                    </div>
+                    <div class="inside_img hi-fi jingyu-hifi">
+                        <img src = "images/jingyu/jun-dashboard.png">
+                        <p> Dashboard </p>
+                    </div>
+                    <div class="inside_img hi-fi jingyu-hifi">
+                        <img src = "images/jingyu/jun-casestudy.png">
+                        <p> Whale Design Case Study </p>
+                    </div>
+                    <div class="inside_img hi-fi jingyu-hifi">
+                        <img src = "images/jingyu/jun-onecontest.png">
+                        <p> Contest Detailed Information </p>
+                    </div>
+                    <div class="inside_img hi-fi jingyu-hifi">
+                        <img src = "images/jingyu/jun-onesubmission.png">
+                        <p> Make a Pick </p>
+                    </div>
+                    <div class="inside_img hi-fi jingyu-hifi">
+                        <img src = "images/jingyu/jun-landingpage.png">
+                        <p> Landing Page</p>
+                    </div>
+
+
+      
+                </div> 
+        </div>
 
         <!-- <div class = 'takeaways'>
-            <h1 class = 'heading'>Takeaways</h1>   
-            <div class = 'takeaways align-left'>
-                <span></span>
-                <p>coming soon <p>
+            <h1 class = 'heading'>Reflection</h1>   
+            <div class ='bar'></div>
+
+            <div class = 'align-left lastpart'>
+                <span>Always put yourself in user's shoes</span>
+                <p>
+                    It is intimidating to step into a whole new world like the real estate industry and try to fix problems for experts in that area.
+                    I did spend a fair amount of time on understanding how does the real estate transaction work in the U.S., who are the stakeholders, and even real estate terms.
+                    But those efforts paid off when I started to work on the design part. I can put myself in users' shoes and be confident about my ideas because I know every single step in the 
+                    whole complicated progress and when I took a closer look at each of them, the perplexing process will be broken down into multiple smaller pieces and the problem is easier to solve.
+                    
+                </p>
             </div>
-        </div>
-     -->
-
-
-  
-
+        </div> -->
 
     </main>
     <footer id = "footer" >
-        <div class = "long-card">
-            <div class = 'part one'>
-            <p> © Built from scratch by Chenyang Lyu 
-                <br>
-                <span>Actively seeking a full-time UX/Product design position.</span>
-            </p>
+            <div class = "long-card">
+                <div class = 'part one'>
+                <p> © Built from scratch by Chenyang Lyu 
+                    <br>
+                    <span>Actively seeking a full-time UX/Product design position.</span>
+                </p>
+                </div>
+  
+                <div class = 'part three'>
+    
+                <a href = "docs/chenyang_lyu_resume_2019.pdf" target="_blank">
+                    <i class="far fa-file"></i>
+                </a>
+    
+                <a href = "https://www.linkedin.com/in/chenyang-lyu-503b09128" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+    
+                <a href = "https://github.com/zeeerglingchen" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+    
+                <i class="fab fa-instagram"></i>
+                
+                </div>
             </div>
+        </footer>
 
-            <div class = 'part three'>
+        <!-- scroll and hide the nav bar -->
+        <script src = "js/scrollandHide.js"></script>
+        <script src = "js/mobilenav.js"></script>
 
-            <a href = "docs/chenyang_lyu_resume_2019.pdf" target="_blank">
-                <i class="far fa-file"></i>
-            </a>
 
-            <a href = "https://www.linkedin.com/in/chenyang-lyu-503b09128" target="_blank">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
 
-            <a href = "https://github.com/zeeerglingchen" target="_blank">
-                <i class="fab fa-github"></i>
-            </a>
-
-            <i class="fab fa-instagram"></i>
-            
-            </div>
-        </div>
-    </footer>
-    <script src = "js/scrollandHide.js"></script>
-
-</body>
+    </body>
 
 </html>

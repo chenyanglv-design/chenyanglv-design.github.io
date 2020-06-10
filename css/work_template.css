@@ -99,6 +99,10 @@
         background-color: #35BDEE;
     }
 
+    .background-jingyu{
+        background-color: #2679F6;
+    }
+
     .revised-background p{
         color: white;
     }
@@ -227,7 +231,7 @@
     }
 
     .flexbgcolor-jingyu{
-        background-color: #47587C;
+        background-color: #2679F6;
         width: 100%;
     }
     .flexbgcolor-radar{
@@ -474,6 +478,19 @@
         color: rgb(10, 10, 10)
     }
 
+    .solution-text-jingyu{
+        width:100%;
+        grid-column: 1/5;
+    }
+
+    .solution-img-jingyu{
+        margin-top: 2rem;
+        grid-column: 1/5;
+    }
+    .solution-img-jingyu img{
+        width: 100%;
+    }
+
     .txt-header p{
         margin-top: 2rem;
         font-weight:bolder;  
@@ -508,5 +525,12 @@
     #headertext .mobilenav{
        display: none;
       }
+
+    .jingyu-hifi{
+        margin-bottom: 12rem;
+    }
+    .jingyu-hifi img{
+        width: 100%;
+    }
 
 }
