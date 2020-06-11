@@ -36,19 +36,18 @@
         margin: 0;
         padding: 0;
         font-family: 'Inter', sans-serif;
-        padding: 0.5rem 0;
         font-weight: 300;
-        line-height: 2.4rem;
-        font-size: 1.1rem;
+        line-height: normal;
+        font-size: 2.4rem;
         
     }
 
     .align-left span{
-        margin-top: 3rem;
+        padding: 6rem 0;
         color: rgb(10, 10, 10);
         font-weight: 600;
         font-size: 2.8rem;
-        line-height: 2.8rem;
+        line-height: normal;
     }
 
     .flexbgcolor-reasi{
@@ -60,11 +59,15 @@
         width: 100%;
     }
 
+    .basic-intro{
+        text-align: center;
+    }
+
     .client_name p{
         font-weight: 600;
         padding: 0;
         font-size: 6rem;
-        margin-top:8rem;
+        margin:8rem 0;
     }
     
 
@@ -94,11 +97,18 @@
         border-bottom: 3px solid rgb(15, 15, 15);
     }
 
-    b{
-        margin-top: 6rem;
-        margin-bottom: 3rem;
+    .problem{
+        margin-top: 4rem;
     }
 
+    .inside_img img{
+        margin-top: 4rem;
+    }
+
+    .caption-middle{
+        text-align: center;
+        font-size: 1.4rem;
+    }
 
 
 
