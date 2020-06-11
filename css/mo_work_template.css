@@ -123,7 +123,6 @@
 
     .pro-background{
         background-color:#22252A;
-        width: 100%;
     }
 
     .pro-background p{
@@ -151,6 +150,30 @@
 
     .txt-header p{
         font-weight: 600;    
+    }
+
+    .solution{
+        margin-bottom: 32rem;
+    }
+
+    .solution-video{
+        margin: 8rem auto;
+    }
+
+    .solution-video img{
+        width:840px;
+        position: absolute;
+    }
+
+    .solution-video .reasi_vid{
+        width:768px;
+    }
+
+    .solution-video video{
+        margin: 0 auto;
+        margin-top: 9.5rem;
+        margin-left: 2.5rem;
+        border-radius: 0.8rem;
     }
 
 
