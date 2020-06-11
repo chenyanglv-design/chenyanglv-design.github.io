@@ -27,7 +27,7 @@
     }
 
     .align-left{
-        margin: 12rem 32px;
+        margin: 12rem 64px;
     }
 
     .align-left p{
@@ -36,7 +36,7 @@
         margin: 0;
         padding: 0;
         font-family: 'Inter', sans-serif;
-        font-weight: 300;
+        font-weight: 400;
         line-height: normal;
         font-size: 2.4rem;
         
@@ -46,7 +46,7 @@
         padding: 6rem 0;
         color: rgb(10, 10, 10);
         font-weight: 600;
-        font-size: 2.8rem;
+        font-size: 3.2rem;
         line-height: normal;
     }
 
@@ -105,9 +105,15 @@
         margin-top: 4rem;
     }
 
-    .caption-middle{
+    .caption-middle p{
         text-align: center;
         font-size: 1.4rem;
+        font-weight: 300;
+
+    }
+
+    b{
+        font-size: 2.8rem;
     }
 
 
