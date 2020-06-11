@@ -138,6 +138,18 @@
         padding: 6rem 0;
     }
 
+    .revised-background{
+        background-color: #35BDEE;
+    }
+
+    .revised-background p{
+        color: white;
+    }
+
+    .revised-background span{
+        color: white;
+    }
+
     .problem span{
         font-weight: 600;
         font-size: 2.4rem;   
@@ -176,6 +188,27 @@
         margin-left: 2.5rem;
         border-radius: 0.8rem;
     }
+
+    .hi-fi p{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .flexbgcolor-jingyu{
+        background-color: #2679F6;
+        width: 100%;
+    }
+
+    .flexbgcolor-radar{
+        background-color: #21262C;
+        width: 100%;
+    }
+
+    .flexbgcolor-perch{
+        background-color: #39374C;
+        width: 100%;
+    }
+
 
 
 
