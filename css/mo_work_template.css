@@ -36,10 +36,9 @@
         margin: 0;
         padding: 0;
         font-family: 'Inter', sans-serif;
-        font-weight: 400;
-        line-height: normal;
-        font-size: 2.4rem;
-        
+        font-weight: 300;
+        line-height: 4.8rem;
+        font-size: 2.4rem;        
     }
 
     .align-left span{
@@ -101,6 +100,10 @@
         margin-top: 4rem;
     }
 
+    .solution-text{
+        margin-top: 4rem;
+    }
+
     .inside_img img{
         margin-top: 4rem;
     }
@@ -113,8 +116,44 @@
     }
 
     b{
+        display: block;
         font-size: 2.8rem;
+        margin-bottom: 3rem;
     }
+
+    .pro-background{
+        background-color:#22252A;
+        width: 100%;
+    }
+
+    .pro-background p{
+        color: white;
+    }
+
+    .pro-background span{
+        color: white;
+    }
+
+    .intial-problem{
+        padding: 6rem 0;
+    }
+
+    .problem span{
+        font-weight: 600;
+        font-size: 2.4rem;   
+        color: #35BDEE;
+    }
+
+    .txt-header{
+        font-size: 2.8rem;
+        margin-bottom: 5rem;
+    }
+
+    .txt-header p{
+        font-weight: 600;    
+    }
+
+
 
 
 
