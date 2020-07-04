@@ -182,12 +182,26 @@
         width:768px;
     }
 
+
     .solution-video video{
         margin: 0 auto;
         margin-top: 9.5rem;
         margin-left: 2.5rem;
         border-radius: 0.8rem;
     }
+
+    .solution-video .radar_vid{
+        width:748px;
+        margin-top: 2.8rem;
+    }
+
+    .solution-video .laptop_video{
+        margin-top: 0;
+        width:670px;
+        margin-left: 5.5rem;
+        border-radius: 0.8rem;
+    }
+
 
     .hi-fi p{
         margin: 0 auto;

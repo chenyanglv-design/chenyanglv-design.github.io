@@ -395,7 +395,11 @@
     .solution-video .reasi_vid{
         width:290px;
         margin-top: 4.9rem;
+    }
 
+    .solution-video .radar_vid{
+        width:290px;
+        margin-top: 1.2rem;
     }
 
     .solution-video .laptop_video{
