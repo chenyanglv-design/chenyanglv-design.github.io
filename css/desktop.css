@@ -264,6 +264,15 @@
     text-decoration: none;
   }
 
+  #workcontainer h2{
+    margin-bottom: 5rem;
+    background: #050505;
+    text-align: left;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+  }
+
   /* hover text styling */
 
     /* overall */
@@ -387,7 +396,7 @@
   grid-row: 4/5 ;
   margin-bottom: 1rem;
   width: 100%;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #3D3D40;
 }
 
 
@@ -675,5 +684,7 @@
   .about_img_mobile{    
     display: none
   }
+
+  
 
 }
